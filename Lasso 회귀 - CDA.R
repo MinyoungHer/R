@@ -81,7 +81,6 @@ CDA_lasso=function(B, y, epsilon, max_iter, lambda_val=0)
 }
 
 
-debugonce(CDA_lasso)
 fit2=CDA_lasso(B,y, epsilon=epsilon, max_iter=max_iter)
 fit2$coefficient
 
